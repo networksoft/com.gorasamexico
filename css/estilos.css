@@ -1,0 +1,348 @@
+@font-face {
+      font-family: "AdihausDIN-Bold";
+      src: url("../fonts/AdihausDIN-Bold.ttf");
+    }
+
+@font-face {
+      font-family: "AdihausDIN-Regular";
+      src: url("../fonts/AdihausDIN-Regular.ttf");
+    }
+
+body{
+	font-family: "AdihausDIN-Bold", sans-serif;
+	position: absolute;
+}
+
+h4{
+	font-size: 1.3em;
+}
+
+h1 {
+	margin: 0!important;
+}
+
+#redes{
+	width: 60px;
+	height: auto;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 99;
+}
+
+.registro{
+	background-color: #1424ef;
+	padding: 10px 15px 5px 15px;
+	border-radius: 15px;
+	color: #fff;
+}
+
+.forma1{
+	border: 2px solid #1424ef;
+	border-radius: 15px;
+}
+
+.text2{
+	font-family: "AdihausDIN-Regular", sans-serif;
+	font-size: 20px;
+}
+
+.text3{
+	font-size: 3em;
+}
+
+.text4{
+	font-size: 1.2em;
+}
+
+.pad1{
+	padding-bottom: 0.4em;
+}
+
+.pad2{
+	padding-top: 1.5em;
+	padding-bottom: 0.6em;
+}
+
+.pad3{
+	padding: 3em;
+}
+
+.pad4{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+/*----Estilos de Menú--*/
+
+.menu1{
+	font-family: "AdihausDIN-Bold", sans-serif;
+}
+
+
+.menu1 .opc1{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: rgb(15,35,70);
+	background: -moz-linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	background: linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f2346",endColorstr="#1424ee",GradientType=1);
+}
+
+.menu1 .opc1:hover{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: rgb(15,35,70);
+	background: -moz-linear-gradient(0deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	background: linear-gradient(0deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f2346",endColorstr="#1424ee",GradientType=1);
+	transition: ease 0.1 all;
+}
+
+.opc1 a {
+	color: #fff;
+}
+
+.opc1 a:hover{
+	color:#dadada;
+		-webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.menu1 .opc2{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.opc2 a:hover{
+	color:#0f2346;
+		-webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.menu1 .opc3{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: rgb(15,35,70);
+	background: -moz-linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(38,159,212,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(38,159,212,1) 100%);
+	background: linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(38,159,212,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f2346",endColorstr="#269fd4",GradientType=1);
+}
+
+.menu1 .opc3:hover{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: rgb(15,35,70);
+	background: -moz-linear-gradient(0deg, rgba(15,35,70,1) 0%, rgba(38,159,212,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(15,35,70,1) 0%, rgba(38,159,212,1) 100%);
+	background: linear-gradient(0deg, rgba(15,35,70,1) 0%, rgba(38,159,212,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f2346",endColorstr="#269fd4",GradientType=1);
+}
+
+.opc3 a {
+	color: #fff;
+}
+
+.opc3 a:hover{
+	color:#dadada;
+		-webkit-transition: color 0.5s ease-out;
+  -moz-transition: color 0.5s ease-out;
+  -o-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.dropdown-menu{
+	background-color: transparent;
+	border: none;
+}
+
+.dropdown-menu a:hover{
+	color: rgb(15,35,70);
+}
+
+.nutri{
+	background-color: #81bb00;
+}
+
+.prod{
+	background-color: #92b8ce;
+}
+
+.cos{
+	background-color: #969696;
+}
+
+/*----FIN Estilos de Menú--*/
+
+.blue{
+	background-color: blue;
+	color: #fff;
+}
+
+.blue a{
+	color: #fff;
+}
+
+.blue a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.boton1{
+	color: #fff;
+	background: rgb(15,35,70);
+	background: -moz-linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	background: linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(20,36,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f2346",endColorstr="#1424ee",GradientType=1);
+}
+
+a.boton1:hover{
+	text-decoration: underline;
+}
+
+.nutrition{
+	background: rgb(183,200,183);
+background: -moz-linear-gradient(180deg, rgba(183,200,183,1) 0%, rgba(255,255,255,1) 85%);
+background: -webkit-linear-gradient(180deg, rgba(183,200,183,1) 0%, rgba(255,255,255,1) 85%);
+background: linear-gradient(180deg, rgba(183,200,183,1) 0%, rgba(255,255,255,1) 85%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b7c8b7",endColorstr="#ffffff",GradientType=1);
+}
+
+.products{
+	background: rgb(169,197,207);
+background: -moz-linear-gradient(180deg, rgba(169,197,207,1) 0%, rgba(255,255,255,1) 85%);
+background: -webkit-linear-gradient(180deg, rgba(169,197,207,1) 0%, rgba(255,255,255,1) 85%);
+background: linear-gradient(180deg, rgba(169,197,207,1) 0%, rgba(255,255,255,1) 85%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a9c5cf",endColorstr="#ffffff",GradientType=1);
+}
+
+.cosmetics{
+	background: rgb(163,163,163);
+background: -moz-linear-gradient(180deg, rgba(163,163,163,1) 0%, rgba(255,255,255,1) 85%);
+background: -webkit-linear-gradient(180deg, rgba(163,163,163,1) 0%, rgba(255,255,255,1) 85%);
+background: linear-gradient(180deg, rgba(163,163,163,1) 0%, rgba(255,255,255,1) 85%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a3a3a3",endColorstr="#ffffff",GradientType=1);
+}
+
+.color1{
+	color: #431c08;
+}
+
+.color2{
+	color: #00266B;
+}
+
+.color3{
+	color: #B10000;
+}
+
+.color4{
+	color: #900F12;
+}
+
+.color5{
+	color: #014783;
+}
+
+.color6{
+	color: #6fcbdc;
+}
+/** @qcmarcel */
+#redes .pad1{
+	max-width: 50px;
+}
+.w-100{
+
+}
+.logo-img{
+	max-height: 8em;
+}
+.menu1 .opc1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+	background: rgb(227,227,227);
+	background: linear-gradient(90deg, rgba(227,227,227,1) 0%, rgba(255,255,255,1) 10%, rgba(255,255,255,1) 90%, rgba(227,227,227,1) 100%);
+}
+.menu1 .opc1:hover {
+	background: rgb(227,227,227);
+	background: linear-gradient(90deg, rgb(227, 227, 227) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(227,227,227,1) 100%);
+	transition: background-color 1s ease-out;
+}
+.menu1 .opc2:hover {
+	background: rgb(227,227,227);
+	background: linear-gradient(0deg, rgb(227, 227, 227) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(227,227,227,1) 100%);
+	transition: background-color 1s ease-out;
+}
+.opc1 a {
+	color: #000fab !important;
+}
+.opc1 a:hover{
+	color: #0315dd !important;
+}
+.menu1 li{
+	padding: 2px !important;
+}
+ul.no-style{
+	list-style: none;
+	text-align: justify !important;
+	font-weight: 300;
+}
+ul li span{
+	font-size: 30px;
+}
+.main {
+	padding: 2em;
+}
+.menu1 .opc3:hover{
+	background: rgb(15,35,70);
+	background: linear-gradient(180deg, rgba(15,35,70,1) 0%, rgba(38,159,212,.6) 100%);
+}
+header .row{
+	margin-right: 0;
+	margin-left: 0;
+}
+.faded{
+	opacity:.5;
+}
+.fade-in , .fade-in p{
+	animation: fadeIn ease 1.5s !important;
+	-webkit-animation: fadeIn ease 1.5s !important;
+	-moz-animation: fadeIn ease 1.5s;
+	-o-animation: fadeIn ease 1.5s;
+	-ms-animation: fadeIn ease 1.5s;
+}
+@keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+.nutrition{
+	background: linear-gradient(to right, #c7eac7 0%,#eaffec 25%,#effff0 42%,#f4fff5 59%,#eaffec 75%,#eaffec 75%,#c7eac7 100%);
+}

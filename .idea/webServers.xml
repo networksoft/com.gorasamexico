@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e855f296-e970-4af2-9fdc-d73a4081fb1a" name="dreamhost" url="http://gorasamexico.com">
+        <fileTransfer rootFolder="/home/dh_9nmmxk" accessType="SFTP" host="gorasamexico.com" port="22" sshConfigId="1c2f51c3-e406-4b24-a349-99b0ae7e84da" sshConfig="dh_9nmmxk@gorasamexico.com:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

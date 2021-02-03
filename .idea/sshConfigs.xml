@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="gorasamexico.com" id="1c2f51c3-e406-4b24-a349-99b0ae7e84da" port="22" nameFormat="DESCRIPTIVE" username="dh_9nmmxk" />
+    </configs>
+  </component>
+</project>
